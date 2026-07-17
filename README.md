@@ -16,20 +16,17 @@
 
 
 
-<br /><img src="https://img.shields.io/github/languages/top/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square"/>
+<br />
 
-
-&nbsp; <img src="https://img.shields.io/github/repo-size/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
-
-&nbsp; <img src="https://img.shields.io/github/languages/count/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
-
-&nbsp; <img src="https://img.shields.io/github/last-commit/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
-
-&nbsp; <img src="https://img.shields.io/github/issues/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
-
-&nbsp; <img src="https://img.shields.io/github/issues-pr/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
-
-&nbsp; <img src="https://img.shields.io/badge/status-construção-yellow" alt="Status: Em Construção">
+<div align="center">
+<img src="https://img.shields.io/github/languages/top/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square"/>
+<img src="https://img.shields.io/github/repo-size/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
+<img src="https://img.shields.io/github/languages/count/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
+<img src="https://img.shields.io/github/last-commit/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
+<img src="https://img.shields.io/github/issues/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
+<img src="https://img.shields.io/github/issues-pr/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
+<img src="https://img.shields.io/badge/status-construção-yellow" alt="Status: Em Construção">
+</div>
 
 
 
@@ -90,15 +87,16 @@ A API do Blog Pessoal foi desenvolvida utilizando **Java** e o **framework Sprin
 
 <br />
 
-1\. Consulta, cadastro, login e atualização dos dados de usuários
+1. Consulta, cadastro, login e atualização dos dados de usuários
 
-2\. Consulta, criação e gerenciamento de temas para classificar postagens
+2. Consulta, criação e gerenciamento de temas para classificar postagens
 
-3\. Criação, edição, listagem e remoção de postagens
+3. Criação, edição, listagem e remoção de postagens
 
-4\. Associação de postagens a temas e autores
+4. Associação de postagens a temas e autores
 
-5\. Autenticação via token JWT para segurança nas requisições
+5. Autenticação via token JWT para segurança nas requisições
+
 
 
 
@@ -262,13 +260,13 @@ Para executar os códigos localmente, você precisará:
 
 
 
-\- \[Java JDK 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Java JDK 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
-\- Banco de dados \[MySQL](https://dev.mysql.com/downloads/)
+- Banco de dados [MySQL](https://dev.mysql.com/downloads/)
 
-\- \[STS](https://spring.io/tools)
+- [STS](https://spring.io/tools)
 
-\- \[Insomnia](https://insomnia.rest/download) ou \[Postman](https://www.postman.com/)
+- [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/)
 
 
 
@@ -288,7 +286,7 @@ Para executar os códigos localmente, você precisará:
 
 
 
-1\. Clone o repositório do Projeto \[Blog Pessoal](https://github.com/Joao-Pedro-Duo/Blog_Pessoal_spring) dentro da pasta do *Workspace* do STS
+1. Clone o repositório do Projeto [Blog Pessoal](https://github.com/Joao-Pedro-Duo/Blog_Pessoal_spring) dentro da pasta do *Workspace* do STS
 
 
 
@@ -300,17 +298,17 @@ git clone https://github.com/rafaelq80/Joao-Pedro-Duo/Blog_Pessoal_spring.git
 
 
 
-2\. **Abra o STS** e selecione a pasta do *Workspace* onde você clonou o repositório do projeto
+2. **Abra o STS** e selecione a pasta do *Workspace* onde você clonou o repositório do projeto
 
-3\. No menu superior do STS, clique na opção: **File 🡲 Import...**
+3. No menu superior do STS, clique na opção: **File 🡲 Import...**
 
-4\. Na janela **Import**, selecione a opção: **General 🡲 Existing Projects into Workspace** e clique no botão **Next**
+4. Na janela **Import**, selecione a opção: **General 🡲 Existing Projects into Workspace** e clique no botão **Next**
 
-5\. Na janela **Import Projects**, no item **Select root directory**, clique no botão **Browse...** e selecione a pasta do *Workspace* onde você clonou o repositório do projeto
+5. Na janela **Import Projects**, no item **Select root directory**, clique no botão **Browse...** e selecione a pasta do *Workspace* onde você clonou o repositório do projeto
 
-6\. O STS reconhecerá o projeto automaticamente
+6. O STS reconhecerá o projeto automaticamente
 
-7\. Marque o Projeto Blog Pessoal no item **Projects** e clique no botão **Finish** para concluir a importação
+7. Marque o Projeto Blog Pessoal no item **Projects** e clique no botão **Finish** para concluir a importação
 
 
 
@@ -322,19 +320,19 @@ git clone https://github.com/rafaelq80/Joao-Pedro-Duo/Blog_Pessoal_spring.git
 
 
 
-1\. Na Guia **Boot Dashboard**, localize o  **Projeto Blog Pessoal**
+1. Na Guia **Boot Dashboard**, localize o  **Projeto Blog Pessoal**
 
-2\. Selecione o **Projeto Blog Pessoal**
+2. Selecione o **Projeto Blog Pessoal**
 
-3\. Clique no botão **Start or Restart** <img src="https://i.imgur.com/wdoZqWP.png" title="source: imgur.com" width="4%"/> para iniciar a aplicação
+3. Clique no botão **Start or Restart** <img src="https://i.imgur.com/wdoZqWP.png" title="source: imgur.com" width="4%"/> para iniciar a aplicação
 
-4\. Caso seja perguntado se você deseja autorizar o acesso ao projeto via rede, clique no botão **Permitir Acesso**
+4. Caso seja perguntado se você deseja autorizar o acesso ao projeto via rede, clique no botão **Permitir Acesso**
 
-5\. Acompanhe a inicialização do projeto no console do STS
+5. Acompanhe a inicialização do projeto no console do STS
 
-6\. Verifique se o banco de dados `db\_blogpessoal` foi criado corretamente e se as tabelas foram geradas automaticamente.
+6. Verifique se o banco de dados `db\_blogpessoal` foi criado corretamente e se as tabelas foram geradas automaticamente.
 
-7\. Utilize o \[Insomnia](https://insomnia.rest/) ou o \[Postman](https://www.postman.com/) para testar os endpoints.
+7. Utilize o [Insomnia](https://insomnia.rest/) ou o [Postman](https://www.postman.com/) para testar os endpoints.
 
 
 
@@ -343,7 +341,6 @@ git clone https://github.com/rafaelq80/Joao-Pedro-Duo/Blog_Pessoal_spring.git
 
 
 > [!TIP]
-
 > Ao acessar a URL `http://localhost:8080` em seu navegador, a interface do Swagger será carregada automaticamente, permitindo a visualização e a interação com os endpoints da API, bem como a consulta dos modelos de dados utilizados.
 
 
@@ -360,9 +357,9 @@ git clone https://github.com/rafaelq80/Joao-Pedro-Duo/Blog_Pessoal_spring.git
 
 
 
-\- Na **Package Explorer**, navegue até a Source Folder `src/test/java`
+- Na **Package Explorer**, navegue até a Source Folder `src/test/java`
 
-\- Localize as classes que contém os testes (classes cujo nome terminam com a palavra **Test**)
+- Localize as classes que contém os testes (classes cujo nome terminam com a palavra **Test**)
 
 
 
@@ -382,9 +379,9 @@ Você pode executar os testes de duas formas:
 
 
 
-\- Clique com o botão direito sobre a classe de teste
+- Clique com o botão direito sobre a classe de teste
 
-\- Selecione a opção `Run As > JUnit Test`
+- Selecione a opção `Run As > JUnit Test`
 
 
 
@@ -392,9 +389,9 @@ Você pode executar os testes de duas formas:
 
 
 
-\- Clique com o botão direito sobre a pasta do projeto
+- Clique com o botão direito sobre a pasta do projeto
 
-\- Selecione: `Run As > JUnit test` 
+- Selecione: `Run As > JUnit test` 
 
 
 
@@ -406,11 +403,11 @@ Você pode executar os testes de duas formas:
 
 
 
-\- Ao executar os testes, na **Package Explorer**, será exibida a guia **JUnit**  mostrando os resultados dos testes
+- Ao executar os testes, na **Package Explorer**, será exibida a guia **JUnit**  mostrando os resultados dos testes
 
-\- Os testes que falharem serão destacados em vermelho, e os bem-sucedidos em verde
+- Os testes que falharem serão destacados em vermelho, e os bem-sucedidos em verde
 
-\- Clique nos testes para visualizar os detalhes ou mensagens de erro no item **Failure Trace**
+- Clique nos testes para visualizar os detalhes ou mensagens de erro no item **Failure Trace**
 
 
 
@@ -430,11 +427,11 @@ Este repositório é parte de um projeto educacional, mas contribuições são s
 
 
 
-\- Criar uma **issue**
+- Criar uma **issue**
 
-\- Enviar um **pull request**
+- Enviar um **pull request**
 
-\- Compartilhar com colegas que estejam aprendendo Java!
+- Compartilhar com colegas que estejam aprendendo Java!
 
 
 
