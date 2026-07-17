@@ -292,7 +292,7 @@ Para executar os códigos localmente, você precisará:
 
 ```bash
 
-git clone https://github.com/rafaelq80/Joao-Pedro-Duo/Blog_Pessoal_spring.git
+git clone https://github.com/Joao-Pedro-Duo/Blog_Pessoal_spring.git
 
 ```
 
