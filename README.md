@@ -21,8 +21,8 @@
 
 
 <div align="center">
-
-&nbsp; <img src="https://img.shields.io/github/languages/top/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
+<div align="center">
+<img src="https://img.shields.io/github/languages/top/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
 
 &nbsp; <img src="https://img.shields.io/github/repo-size/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
 
@@ -35,8 +35,6 @@
 &nbsp; <img src="https://img.shields.io/github/issues-pr/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
 
 &nbsp; <img src="https://img.shields.io/badge/status-construção-yellow" alt="Status: Em Construção">
-
-
 
 </div>
 
@@ -52,7 +50,7 @@
 
 <br />
 
-O **Blog Pessoal ** é uma aplicação que permite que usuários publiquem, editem e visualizem postagens relacionadas a temas variados, de forma organizada e segura. Este projeto foi desenvolvido com fins educacionais, simulando uma aplicação real de blog para praticar conceitos de API REST com Java e Spring Boot.
+O **Blog Pessoal** é uma aplicação que permite que usuários publiquem, editem e visualizem postagens relacionadas a temas variados, de forma organizada e segura. Este projeto foi desenvolvido com fins educacionais, simulando uma aplicação real de blog para praticar conceitos de API REST com Java e Spring Boot.
 
 
 
@@ -60,15 +58,16 @@ Entre os principais recursos que um blog pessoal oferece, destacam-se:
 
 
 
-1\. Criação, edição e exclusão de postagens
+1. Criação, edição e exclusão de postagens
 
-2\. Associação de postagens a temas específicos
+2. Associação de postagens a temas específicos
 
-3\. Cadastro e autenticação de usuários
+3. Cadastro e autenticação de usuários
 
-4\. Visualização de postagens por tema ou usuário
+4. Visualização de postagens por tema ou usuário
 
-5\. Controle de acesso a operações sensíveis
+5. Controle de acesso a operações sensíveis
+
 
 
 
@@ -200,53 +199,29 @@ O **DER (Diagrama Entidade-Relacionamento)** do projeto **Blog Pessoal** represe
 
 <br />
 
-
-
 ```mermaid
-
 erDiagram
-
-&nbsp;   tb\_usuarios ||--o{ tb\_postagens : escreve
-
-&nbsp;   tb\_temas ||--o{ tb\_postagens : classifica
-
-&nbsp;   tb\_usuarios {
-
-&nbsp;       bigint id PK
-
-&nbsp;       varchar(255) nome
-
-&nbsp;       varchar(255) usuario
-
-&nbsp;       varchar(255) senha
-
-&nbsp;       varchar(5000) foto
-
-&nbsp;   }
-
-&nbsp;   tb\_temas {
-
-&nbsp;       bigint id PK
-
-&nbsp;       varchar(255) descricao
-
-&nbsp;   }
-
-&nbsp;   tb\_postagens {
-
-&nbsp;       bigint id PK
-
-&nbsp;       varchar(255) titulo
-
-&nbsp;       varchar(255) texto
-
-&nbsp;       datetime data
-
-&nbsp;       bigint tema\_id FK
-
-&nbsp;       bigint usuario\_id FK
-
-&nbsp;   }
+    tb_usuarios ||--o{ tb_postagens : escreve
+    tb_temas ||--o{ tb_postagens : classifica
+    tb_usuarios {
+        bigint id PK
+        varchar(255) nome
+        varchar(255) usuario
+        varchar(255) senha
+        varchar(5000) foto
+    }
+    tb_temas {
+        bigint id PK
+        varchar(255) descricao
+    }
+    tb_postagens {
+        bigint id PK
+        varchar(255) titulo
+        varchar(255) texto
+        datetime data
+        bigint tema_id FK
+        bigint usuario_id FK
+    }
 
 ```
 
@@ -263,26 +238,16 @@ erDiagram
 <br />
 
 | Item                          | Descrição       |
-
 | ----------------------------- | --------------- |
-
-| \*\*Servidor\*\*                  | Tomcat          |
-
-| \*\*Linguagem de programação\*\*  | Java            |
-
-| \*\*Framework\*\*                 | Spring Boot     |
-
-| \*\*ORM\*\*                       | JPA + Hibernate |
-
-| \*\*Banco de dados Relacional\*\* | MySQL           |
-
-| \*\*Segurança\*\*                 | Spring Security |
-
-| \*\*Autenticação\*\*              | JWT             |
-
-| \*\*Testes automatizados\*\*      | JUnit           |
-
-| \*\*Documentação\*\*              | SpringDoc       |
+| **Servidor**                  | Tomcat          |
+| **Linguagem de programação**  | Java            |
+| **Framework**                 | Spring Boot     |
+| **ORM**                       | JPA + Hibernate |
+| **Banco de dados Relacional** | MySQL           |
+| **Segurança**                 | Spring Security |
+| **Autenticação**              | JWT             |
+| **Testes automatizados**      | JUnit           |
+| **Documentação**              | SpringDoc       |
 
 
 
@@ -332,7 +297,7 @@ Para executar os códigos localmente, você precisará:
 
 ```bash
 
-git clone https://github.com/rafaelq80/blogpessoal\_spring\_t82.git
+git clone https://github.com/rafaelq80/Joao-Pedro-Duo/Blog_Pessoal_spring.git
 
 ```
 
@@ -380,9 +345,7 @@ git clone https://github.com/rafaelq80/blogpessoal\_spring\_t82.git
 
 
 
-> \[!TIP]
-
->
+> [!TIP]
 
 > Ao acessar a URL `http://localhost:8080` em seu navegador, a interface do Swagger será carregada automaticamente, permitindo a visualização e a interação com os endpoints da API, bem como a consulta dos modelos de dados utilizados.
 
@@ -488,6 +451,4 @@ Este repositório é parte de um projeto educacional, mas contribuições são s
 
 <br />
 
-Desenvolvido por [**João Pedro**](https://github.com/Joao-Pedro-Duo)
-
-Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
+Desenvolvido por [**João Pedro**](https://github.com/Joao-Pedro-Duo) Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
