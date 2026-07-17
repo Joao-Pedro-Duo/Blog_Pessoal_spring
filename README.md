@@ -16,13 +16,8 @@
 
 
 
-<br />
+<br /><img src="https://img.shields.io/github/languages/top/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square"/>
 
-
-
-<div align="center">
-<div align="center">
-<img src="https://img.shields.io/github/languages/top/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
 
 &nbsp; <img src="https://img.shields.io/github/repo-size/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
 
@@ -35,6 +30,8 @@
 &nbsp; <img src="https://img.shields.io/github/issues-pr/Joao-Pedro-Duo/Blog_Pessoal_spring?style=flat-square" />
 
 &nbsp; <img src="https://img.shields.io/badge/status-construção-yellow" alt="Status: Em Construção">
+
+
 
 </div>
 
